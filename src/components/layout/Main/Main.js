@@ -1,7 +1,6 @@
 import React from 'react';
 import { useAllBlogs } from '../../../hooks/blogs.js';
 import BlogCard from '../../BlogCard/BlogCard.js';
-import './Main.css';
 
 export default function Main() {
   const blogs = useAllBlogs();
